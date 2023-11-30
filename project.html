@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Playfair+Display:wght@600&family=Raleway:wght@500&display=swap');
+
+        .kata {
+            text-align: center; 
+            position: relative; 
+        }
+
+        .kata h1 {
+            position: relative; 
+            display: inline;
+        }
+
+        .kata h1::before {
+            content: ''; 
+            position: absolute;
+            width: 100%;
+            height: 3px; 
+            background-color: #D25380;
+            bottom: -5px;
+            border-radius: 10px; 
+            z-index: -1; 
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr; 
+            gap: 35px; 
+            justify-items: center; 
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .frame {
+            display: flex;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            width: 992px;
+            height: 524px;
+        }
+
+        .frame-pic {
+            flex: 1;
+        }
+
+        .frame-content {
+            flex: 1;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .container img{
+            max-width: 100%;
+        }
+
+        .container h2{
+            font-family: 'Playfair Display';
+            color: #25282B;
+            font-size: 30;
+            margin-top: 200px;
+            margin-bottom: 0px;
+        }
+
+        .container p{
+            font-family: 'Nunito';
+            color: #828282;
+            font-size: 16;
+            margin-top: 15px;
+            margin-bottom: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="asset/Name.png"></div>
+        <div class="navigation">
+            <a href="index.html"> Home </a>
+            <a href="about.html"> About </a>
+            <a href="project.html"> Project </a>
+            <a href="contact.html"> Contact Us</a>
+        </div>
+    </div>
+
+    <div class="kata"><h1>Project</h1></div>
+    <div class="container">
+        <div class="frame">
+            <div class="frame-pic">
+                <img src="asset/poster.png">
+            </div>
+            <div class="frame-content">
+                <h2>Major's Poster</h2>
+                <p>This is my first project for graphic design. I make it according to a predetermined theme by the teacher.</p>
+            </div>
+        </div>
+        
+        <div class="frame">
+            <div class="frame-pic">
+                <img src="asset/web.png">
+            </div>
+            <div class="frame-content">
+                <h2>Simple Web</h2>
+                <p>A simple web made from HTML and CSS.</p>
+            </div>
+        </div>
+    
+        <div class="frame">
+            <div class="frame-pic">
+                <img src="asset/canva.png" width="450" height="510">
+            </div>
+            <div class="frame-content">
+                <h2>Invitation Poster</h2>
+                <p>I have a project to make an invitation poster for snacking activities together, which is one of the routine activities of Keputrian's organizations.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

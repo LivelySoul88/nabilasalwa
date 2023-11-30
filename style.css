@@ -1,0 +1,44 @@
+body{
+    background-color: #FFFAF4;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFAF4;
+    padding: 10px 20px;
+}
+
+
+.logo {
+    color: #FFFAF4; 
+    font-size: 24px;
+    margin-left: 6.5px;
+}
+
+
+.navigation {
+    display: flex; 
+}
+
+.navigation a {
+    color: #000; 
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    margin-right: 30px; 
+    font-weight: bold;
+}
+
+
+.contact-form {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
